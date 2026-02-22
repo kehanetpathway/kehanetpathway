@@ -8,29 +8,23 @@ class Attributes(kehanet):
     @staticmethod
     def language() -> str:
         """
-        Returns the primary programming language used by the developer.
-
-        :return: Programming language
+        Returns the primary programming and spoken languages.
         """
-        language = "Türkçe" 
-        return language
+        languages = "Turkish (Native), Python, JavaScript, C++, C#, Lua, HTML5, CSS3"
+        return languages
 
     @staticmethod
     def tools() -> str:
         """
-        Returns the main tools or editors the developer prefers.
-
-        :return: Development tools
+        Returns the developer's stack, editors, and operating systems.
         """
-        tools = "VS Code, Git, Docker"
-        return tools
+        stack = "VS Code, Git, GitHub, Docker, WordPress, Linux (Tux)"
+        return stack
 
     @staticmethod
     def status() -> str:
         """
-        Returns the current activity status of the developer.
-
-        :return: Status string
+        Returns the current availability of the developer.
         """
         return "active"
 ```
