@@ -4,31 +4,34 @@
 
 
 ```python
-class Attributes:
-    """
-    Represents a software developer's profile.
-    """
+class Attributes(kehanet):
+    @staticmethod
+    def language() -> str:
+        """
+        Returns the primary programming language used by the developer.
 
-    role: str = "Software Developer"
-
-    stack: list[str] = [
-        "Python",
-        "C++",
-        "C#",
-        "Lua",
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ]
+        :return: Programming language
+        """
+        language = "Türkçe" 
+        return language
 
     @staticmethod
-    def contact() -> str:
-        """Returns the public handle."""
-        return "kehanet"
+    def tools() -> str:
+        """
+        Returns the main tools or editors the developer prefers.
+
+        :return: Development tools
+        """
+        tools = "VS Code, Git, Docker"
+        return tools
 
     @staticmethod
     def status() -> str:
-        """Returns the current status of the developer."""
+        """
+        Returns the current activity status of the developer.
+
+        :return: Status string
+        """
         return "active"
 ```
 
