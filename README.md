@@ -78,5 +78,5 @@ class Attributes:
 
 
 <p align="center" style="margin-top: 15px;">
-  <img src="https://komarev.com/ghpvc/?username=kehanet&color=blueviolet&style=for-the-badge&label=Profile+Views&base=1726146" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=kehanet&color=blueviolet&style=for-the-badge&label=Profile+Views&base=235147" alt="Profile Views"/>
 </p>
